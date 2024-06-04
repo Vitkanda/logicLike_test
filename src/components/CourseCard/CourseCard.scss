@@ -1,0 +1,42 @@
+.course-card {
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  height: 100%; 
+
+
+  .course-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    height: 250px;
+
+
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+  }
+
+  .course-name {
+    background-color: #fff;
+    padding: 16px;
+    text-align: center;
+
+    h3 {
+      margin: 0;
+      font-size: 1.25em;
+      font-weight: bold;
+      color: #333;
+    }
+  }
+}
+
+
+
