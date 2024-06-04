@@ -1,3 +1,4 @@
+
 /* Components */
 import CourseCard from "../CourseCard/CourseCard";
 
